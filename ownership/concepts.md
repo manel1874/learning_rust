@@ -11,7 +11,7 @@ Stack: last in, first out.
 
 Heap: less organized
 
-- Mamory allocator fins empty spot. Returns pointer (can be saved to stack)
+- Mamory allocator finds empty spot. Returns pointer (can be saved to stack)
 
 - Slow to allocate on the heap because the allocator has to search for a place to store new data.
 
@@ -20,7 +20,14 @@ Heap: less organized
 
 1. Each value in Rust has an owner.
 2. There can only be one owner at a time.
-3. When the owner foes out of scope, the value will be dropped.
+3. When the owner goes out of scope, the value will be dropped.
 
-Definition (scope of variavles):
+Definition (scope of variables):
 - A scope is the range within a program for which an item is valid.
+
+## The rules of references
+
+1. At any given time, you can have either
+-- one mutable reference or
+-- any number of immutable references
+2. References must always be valid.
