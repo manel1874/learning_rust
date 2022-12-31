@@ -1,6 +1,6 @@
 # My rusty journey
 
-Welcome to My rusty journey repository! This is a place where I document my progress and experiences while learning the Rust programming language.
+Welcome to my rusty journey repository! This is a place where I document my progress and experiences while learning the Rust programming language.
 
 Rust is a systems programming language that is designed to be safe, concurrent, and fast. It is a great choice for building high-performance applications and libraries, and is widely used in industry.
 
