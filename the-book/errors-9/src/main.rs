@@ -19,8 +19,10 @@ fn main() {
 
     println!("Hello, world! Let us propagate a little bit:\n");
 
-    letspropagate::read_username_from_file();
-
-
+    //letspropagate::read_username_from_file();
+    //letspropagate::read_username_from_file_shortcut();
+    //letspropagate::read_username_from_file_chained_shortcut();
+    //letspropagate::read_username_from_file_shortest();
+    letspropagate::propagate_with_different_types();
     
 }
