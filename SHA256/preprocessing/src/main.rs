@@ -54,7 +54,8 @@ fn main() {
         //println!("Padded message: {:?}", padded_message);
 
         // Print the binary representation to prep_file.txt
-        let binary_representation = padded_message.iter().map(|&x| format!("{:08b}", x)).collect::<Vec<String>>().join(" ");
+        //let binary_representation = padded_message.iter().map(|&x| format!("{:08b}", x)).collect::<Vec<String>>().join(" ");
+        let binary_representation = padded_message.iter().map(|&x| format!("{}", x)).collect::<Vec<String>>().join(" ");
         //println!("binary representation: {}", binary_representation);
         prep_file.write_all(binary_representation.as_bytes()).unwrap();
         prep_file.write_all(b"\n").unwrap();

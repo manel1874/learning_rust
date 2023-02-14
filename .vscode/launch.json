@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/arkworks-algebra/arkwork_tutorial/target/debug/arkwork_tutorial",
+            "program": "${workspaceFolder}/the-book/collections-8/target/debug/collections-8",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
