@@ -36,6 +36,8 @@ assert_eq!(dst, [3, 4]);
 
 - [x] [Lifetime annotations YouTube video](https://www.youtube.com/watch?v=rAl-9HwD858)
 
+- [x] [Lifetimesand mutable borrows](https://www.youtube.com/watch?v=pd7PJ6q4I3M)
+
 ## Some and Option types
 
 The if let statement is used to test whether a value matches a pattern, and if it does, it binds the values of the pattern to variables that can be used within the statement's block. If the value does not match the pattern, the statement does nothing.
